@@ -27,11 +27,7 @@ class Beer extends Beverage {
       $this->price= $price;
       $this->alcoholpercentage= $alcoholpercentage;
     }
-    public function getInfo() {
-        echo "{$this->name}<br>";
-        echo "{$this->temperature}<br>";
-        echo "{$this->color}<br>";
-        echo "{$this->price}<br>";
+    public function getAlcoholdPercentage() {
         echo "{$this->alcoholpercentage}%<br>";
     }
 }
